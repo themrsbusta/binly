@@ -22,5 +22,5 @@
 If you prefer to run it using Python:
 1. Clone this repository:
    ```bash
-   git clone [https://github.com/your-username/binly.git](https://github.com/your-username/binly.git)
+   git clone [https://github.com/themrsbusta/binly.git](https://github.com/themrsbusta/binly.git)
    cd binly/src
