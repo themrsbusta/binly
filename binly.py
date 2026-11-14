@@ -13,7 +13,7 @@ class BinlyManager:
         self.BIN_DIR = os.path.expanduser("~/.local/bin")
         os.makedirs(self.BIN_DIR, exist_ok=True)
 
-        # Nomes específicos para ignorar na listagem
+        # Specific names to exclude from the list
         self.IGNORED_NAMES = ["binly", "binly.py"]
         
         self.current_file = None 
@@ -81,7 +81,7 @@ class BinlyManager:
         
         self.lb_commands.delete(0, tk.END)
         for name in sorted(os.listdir(self.BIN_DIR)):
-            # Ignora especificamente o nome do binário binly
+            # Specifically ignore the binly binary name
             if name in self.IGNORED_NAMES:
                 continue
                 
