@@ -1,5 +1,8 @@
 # Binly 🚀
 
+**Division:** Panthera Softwares — Panthera Research. **License:** [MIT](LICENSE).
+
+
 **Binly** is a lightweight Linux command manager that allows you to create, edit, and organize executable scripts within `~/.local/bin` through a clean and intuitive Graphical User Interface (GUI).
 
 ## ✨ Features
